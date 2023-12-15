@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:inherit;
+}
+body{
+    background-image: url("C:/Users/user/Pictures/pic.jpg");
+}
+.container{
+    width: 50%;
+    height: 25vh;
+    border:6px solid rgb(191, 206, 221);
+    border-radius: 15px;
+    text-align: center;
+    margin: auto;
+    background-color: beige;
+   margin-top: 6rem;
+    padding: 1rem;
+}
+.container h1{
+    font-size: 50px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.question{
+    width: 97%;    
+    height: 8vh;
+    background-color: rgb(191, 206, 221);
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+#plus{
+    width: 10%;
+    height: 4vh;
+    background-color:rgb(75, 198, 219);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+#plus:hover{
+ background-color:rgb(39, 211, 39);
+}
+.answer{
+    width: 95%;
+    height: 30vh;
+    background-color: rgb(191, 206, 221);
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+#answ{
+    display: none;
+}
+#neg{
+    width: 10%;
+    height: 4vh;
+    background-color:rgb(75, 198, 219);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#neg:hover{
+background-color: red;
+}
